@@ -1,0 +1,60 @@
+{
+	"width": 640,
+	"height": 360,
+	"fps": 30,
+	"main": "./main.js",
+	"assets": {
+		"main": {
+			"type": "script",
+			"path": "main.js",
+			"global": true
+		},
+		"btn": {
+			"type": "image",
+			"path": "image/btn.png",
+			"width": 800,
+			"height": 800
+		},
+		"se": {
+			"type": "audio",
+			"path": "audio/se",
+			"systemId": "sound",
+			"duration": 1014,
+			"hint": {
+				"extensions": [
+					".m4a",
+					".ogg"
+				]
+			}
+		},
+		"spbtn": {
+			"type": "image",
+			"path": "image/spbtn.png",
+			"width": 511,
+			"height": 401
+		},
+		"se1": {
+			"type": "audio",
+			"path": "audio/se1",
+			"systemId": "sound",
+			"duration": 900,
+			"hint": {
+				"extensions": [
+					".m4a",
+					".ogg"
+				]
+			}
+		}
+	},
+	"environment": {
+		"sandbox-runtime": "3",
+		"nicolive": {
+			"supportedModes": [
+				"ranking"
+			],
+			"preferredSessionParameters": {
+				"totalTimeLimit": 60
+			}
+		}
+	}
+}
